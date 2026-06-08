@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html><head><title>Lets do this Shitty Quiz</title></head>
+<body>
+  <h1>Quick Quiz</h1>
+
+  <p>1. What does HTML stand for?</p>
+  <input type="radio" name="q1" value="wrong"> Hyperlinks and More Links<br>
+  <input type="radio" name="q1" value="correct"> HyperText Markup Language<br>
+  <input type="radio" name="q1" value="wrong"> High Transfer Machine Logic
+
+  <br><br>
+  <button onclick="checkAnswers()">Submit</button>
+  <p id="result"></p>
+</body></html>
