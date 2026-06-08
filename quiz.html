@@ -7,22 +7,43 @@
 
     <h1>Quiz Time!</h1>
 
-    <p>What is 2 + 2?</p>
+    <p>Question 1: What is my birthday?</p>
 
-    <button onclick="checkAnswer(3)">3</button>
-    <button onclick="checkAnswer(4)">4</button>
-    <button onclick="checkAnswer(5)">5</button>
+    <button onclick="checkAnswer(3)">05/08</button>
+    <button onclick="checkAnswer(4)">02/09</button>
+    <button onclick="checkAnswer(5)">08/08</button>
 
     <p id="result"></p>
 
     <script>
         function checkAnswer(answer) {
-            if (answer === 4) {
+            if (answer === 05/08) {
                 document.getElementById("result").innerHTML = "Correct!";
             } else {
                 document.getElementById("result").innerHTML = "Try again.";
             }
         }
+    
+
+    <p>Question 2: What is is my ethnicity?</p>
+
+    <button onclick="checkAnswer(3)">Vietnamese</button>
+    <button onclick="checkAnswer(4)">Filipino</button>
+    <button onclick="checkAnswer(5)">Chinese</button>
+
+    <p id="result"></p>
+
+    <script>
+        function checkAnswer(answer) {
+            if (answer === Chinese) {
+                document.getElementById("result").innerHTML = "Correct!";
+            } else {
+                document.getElementById("result").innerHTML = "Try again.";
+            }
+        }
+
+    
+    
     </script>
 
 </body>
