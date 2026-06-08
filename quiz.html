@@ -12,3 +12,20 @@
   <button onclick="checkAnswers()">Submit</button>
   <p id="result"></p>
 </body></html>
+
+<Script>
+  //This function runs when user clicks Submit
+  function checkAnswers() {
+    let score = 0;
+
+    //Get the Selected radio button for Q1
+    const q1 = document.queryselector('input[name="q1"]:checked';
+    if (q1 && q1.value === "Correct") {
+      score = score + 1;
+    }
+
+    //Show Result 
+    document/getelementbyid("result".textContent = 
+    "You Scored" + score + out of 1!";
+  }
+</script>
